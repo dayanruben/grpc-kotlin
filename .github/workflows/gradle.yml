@@ -10,7 +10,7 @@ on:
 jobs:
   gradle:
     strategy:
-    matrix:
+      matrix:
         os: [ubuntu-latest, macos-latest]
     runs-on: ${{ matrix.os }}
     steps:
